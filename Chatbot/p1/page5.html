@@ -1,0 +1,72 @@
+<div class="p5">
+    <!-- <div class="p5" onload="PushFromPage5()"> -->
+    <div class="container col-5">
+        <div class="border">
+            <div class="row content">
+                <img class="col-3 pl-2" src="./img/profile5.png" alt="">
+                <div class="text col-8 ml-3 pt-4">
+                    <h3>Bonjour Mehdi !</h3>
+                    <p>Nous serons heureux de vous contacter</p>
+                </div>
+
+                <!-- close -->
+                <i class="fa fa-times pt-4" style="font-size:23px; color: #D8D8D8 "></i>
+                <!-- ----- -->
+
+                <!-- Line -->
+                <div class="mt-3 mb-3"
+                    style="width: 100%; height: 1px; background-color: #EFF0F0; --darkreader-inline-bgcolor:#72706e;"
+                    data-darkreader-inline-bgcolor="">
+                </div>
+                <!-- ---- -->
+
+                <div class="scrollp5">
+                    <div id="resultPage5" class="resultp5 m-1">
+                        <!-- la première historique qu'elle va être romplie -->
+                        <div id="paraAffiche" class="row paraP5 m-2 mt-4">
+                        </div>
+
+                        <!-- time of the message -->
+                        <div id="msgTime" class="ml-2" onclick="PushFromPage3_1()"></div>
+                        <!-- ------------------- -->
+
+                        <!-- la deuxième historique du smile face -->
+                        <div class="w-100 d-flex justify-content-end">
+                            <i id="responseA" class="row m-2 fa" style="font-size:70px;color:#F0F0F0"></i>
+                            <p id="responseATime" class="timeReponse"></p>
+                        </div>
+
+                        <!-- time of the message -->
+                        <div id="msgTime" class="" onclick="PushFromPage3_1()"></div>
+                        <!-- ------------------- -->
+                        <!-- majmou3in kamlin f div wahda (id="resultPage5") ya3ni fach radi nabriw tani namchiw l page 6 radi t recupira had resultPage5 kamla ou n7atouha tani f div li kana criyina avec resultat -->
+                    </div>
+                    <!-- la question suivante -->
+                    <div id="para" class="mt-3 ml-2" onclick="PushFromPage5_2()">
+                        <span class="m-4 pb-2">Seriez vous prêt a rachetter de chez Electroplanet?</span>
+                    </div>
+                    <!-- -------------------- -->
+
+                    <!-- the time of the question -->
+                    <time id="time" class="time ml-2" onclick="PushFromPage5_2()"
+                        style="color: #9A9696; font-size: 15px;">12:32</time>
+                    <!-- ------------------------ -->
+
+
+                    <!-- la methode de la reponse -->
+                    <div class="container2 m-5">
+                        <div class="row d-flex justify-content-around">
+                            <button id="button_page5_1" type="button" onclick="PushFromPage5_2()"
+                                class="row btn non">NON</button>
+                            <button id="button_page5_2" type="button" onclick="PushFromPage5_1()"
+                                class="row btn oui">OUI</button>
+                        </div>
+                    </div>
+                    <!-- ------------------------ -->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
